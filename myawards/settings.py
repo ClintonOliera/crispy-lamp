@@ -38,7 +38,16 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'awards',
+    'pyuploadcare.dj',
+    'rest_framework',
+    'crispy_forms',
 ]
+UPLOADCARE = {
+    'pub_key': '709bca64245dd9e55e',
+    'secret': '0abc60851de5f3db2dc7',
+}
+
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
